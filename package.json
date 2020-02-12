@@ -1,0 +1,24 @@
+{
+  "name": "desafio-dt3-sports",
+  "version": "1.0.0",
+  "description": "Web Service RestFull e Aplicação de FrontEnd com JavaScipt",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junniiorferreira/Desafio-Dt3-Sports.git"
+  },
+  "author": "Carlos Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junniiorferreira/Desafio-Dt3-Sports/issues"
+  },
+  "homepage": "https://github.com/junniiorferreira/Desafio-Dt3-Sports#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11"
+  }
+}
