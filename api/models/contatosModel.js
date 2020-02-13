@@ -5,11 +5,8 @@ var contatoSchema = new Schema({
    name: {
       type: String
    },
-   ddd: {
-      type: Number
-   },
-   telefone: {
-       type:Number
+   body: {
+      type: String
    },
    Created_date: {
       type: Date,
