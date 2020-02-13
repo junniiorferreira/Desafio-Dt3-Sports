@@ -22,7 +22,7 @@ db.initialize(dbName, collectionName, function(dbCollection) { // successCallbac
         // return updated list
         dbCollection.find().toArray((error, result) => {
             if (error) throw error;
-            response.json('Welcome');
+            response.json('Bem vindo a DT3 Sports!');
         });
     });
 
