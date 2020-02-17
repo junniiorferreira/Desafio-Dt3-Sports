@@ -8,17 +8,18 @@ const searchStates = async searchText => {
     const states = await res.json();
     const s = states.contatos;
 
-    let matches = s.filter((state) => {
-        const regex = new RegExp(`^${searchText}`, 'gi');
-        return state.name.match(regex);
-    });
+    // let matches = s.filter((state) => {
+    //     const regex = new RegExp(`^${searchText}`, 'gi');
+    //     return state.name.match(regex);
+    // });
 
     if(searchText.length === 0) {
         matches = [];
         matchList.innerHTML =  '';
     }
 
-    outputHtml(matches);
+    // outputHtml(matches);
+    outputHtml(s);
 };
 
 // Mostra resultados em html
