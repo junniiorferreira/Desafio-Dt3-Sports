@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7c824a6ea9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Dt3 Phonebook</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">
+            <img src="img/337.gif" alt="Agenda Dt3 Sports" width="90">
+                <!-- <p class="sub-title mt-4">Phonebook</p> -->
+        </a>
+        
+        <form class="form-inline my-2 my-lg-0">
+            <input id="search" class="form-control mr-sm-2" type="text" placeholder="Buscar contatos">
+        <!-- <div class="btn btn-secondary my-2 my-sm-0">Pesquisar</div> -->
+        </form>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" title="código fonte - github"><i class="fab fa-github"></i><span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="index.html" title="Exemplo em JavaScript"><i class="fab fa-js"></i><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="react.html" title="Exemplo em  React"><i class="fab fa-react"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Exemplo em Vue"><i class="fab fa-vuejs"></i></a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <div id="match-list"></div>
+    
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-10 m-auto">
+                <div class="jumbotron">
+                    <h3 class="display-5">DT3 Phonebook</h3>
+                    <p class="lead">Uma simples agenda telefonica, que consome e alimenta dados em um webservice desenvolvido com javascript (node.js) e MongoDB (noSql)</p>
+                    <hr class="my-4">
+                    <p>Para buscar contatos na base de dados, faça uma busca no campo de pesquisa no topo da página. Para adicionar contatos, preencha os campos a seguir:</p>
+                    <p class="lead">
+                        <div class="form-group name">
+                            <input type="text" placeholder="Nome">
+                            <input type="text" placeholder="DDD" >
+                            <input type="text" placeholder="Telefone" >
+                            <a class="btn btn-primary btn-md save" href="#" role="button">Salvar Contato</a>
+                        </div>                    
+                    </p>
+                </div>
+            </div>    
+        </div>
+    </div> 
+        
+    <script src="js/main.js"></script>
+</body>
+</html>
